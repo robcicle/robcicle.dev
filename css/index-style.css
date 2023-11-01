@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
-    background-color: #121212; /* Dark background color */
+    background-color: #3E3636; /* Dark background color */
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,14 +21,14 @@ body {
   }
 
   .text {
-    color: #F2F2F2; /* Light gray text color */
+    color: #F5EDED; /* Light gray text color */
     font-size: 24px;
     margin-top: 20px;
   }
 
   .btn {
-    background-color: #4A90E2; /* Blue button background color */
-    color: #F2F2F2; /* Light gray button text color */
+    background-color: #000000; /* Blue button background color */
+    color: #F5EDED; /* Light gray button text color */
     padding: 10px 20px;
     text-decoration: none;
     border: none;
