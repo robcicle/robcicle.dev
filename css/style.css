@@ -1,23 +1,45 @@
-a {color:red;}
-p {font-size:1.1ew;}
+body {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
+    background-color: #121212; /* Dark background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
-#header-nav img {
-    float:right;
-    width: 300px;
-    height: 75px;
-}
+  .container {
+    text-align: center;
+  }
 
-header ul {
-    float:right;
-    list-style-type:none;
-}
+  .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 300px; /* You can adjust the width as needed */
+  }
 
-header {
-    padding: 30px 0;
-}
+  .text {
+    color: #F2F2F2; /* Light gray text color */
+    font-size: 24px;
+    margin-top: 20px;
+  }
 
-h1#home {
-    margin: 120px 0 40px 0;
-    font-size:2.4em;
-    text-align:center;
-}
+  .btn {
+    background-color: #4A90E2; /* Blue button background color */
+    color: #F2F2F2; /* Light gray button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .btn:hover {
+    background-color: #333333; /* Slightly darker background color on hover */
+    color: #F2F2F2; /* Light gray text color on hover */
+  }
