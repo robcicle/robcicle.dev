@@ -15,8 +15,17 @@
   <div class="container">
     <img src="images/logo.png" alt="Logo" class="logo">
     <p class="text">Welcome to My Developer Portfolio</p>
-    <a href="/portfolio" class="btn">View My Work</a>
+    <a href="portfolio.html" class="btn">View My Work</a>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var disclaimer = document.querySelector("img[alt='www.000webhost.com']")
+        if(disclaimer) {
+            disclaimer.remove();
+        }
+    });
+  </script>
 </body>
 </html>
 

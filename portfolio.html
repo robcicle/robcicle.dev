@@ -18,13 +18,13 @@
             <div class="row">
 
                 <div class="column8" id="header-nav">
-                    <a href="../"><img src="../images/logo.png" alt="Logo" class="logo"></a>
+                    <a href="index.html"><img src="../images/logo.png" alt="Logo" class="logo"></a>
                 </div>
 
                 <div class="column4">
 
                     <ul>
-                        <li><a href="../">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                     </ul>
 
                 </div>
@@ -36,5 +36,14 @@
         <h1 id="posts">Portfolio</h1>
 
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var disclaimer = document.querySelector("img[alt='www.000webhost.com']")
+            if(disclaimer) {
+                disclaimer.remove();
+            }
+        });
+    </script>
 </body>
 </html>
