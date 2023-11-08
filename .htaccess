@@ -1,4 +1,8 @@
 RewriteEngine on
+ #Rewrite everything to https
+ RewriteEngine On
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
  #redirect /file.html to /file
  RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
  RewriteRule ^ /%1 [NE,L,R]
