@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
+    margin: 0;
+    padding: 0;
+    background-color: #18181b;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+#page-title {
+    color: #F5EDED;
+    font-size: 24px;
+    margin: 1% 1%;
+}
+
+#main-content {
+    text-align: left;
+    margin: -2% 1%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

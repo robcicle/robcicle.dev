@@ -1,13 +1,25 @@
 body {
     font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
-    background-color: #3E3636; /* Dark background color */
+    background-color: #18181b; /* Dark background color */
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 
   .container {
     text-align: center;
