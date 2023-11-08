@@ -4,29 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
-    <title>robcicle.com</title>
-    <link rel="icon" href="images/logo-square.png">
+    <title>robcicle.dev</title>
+    <link rel="icon" href="/images/logo-square.png">
       
-    <link href="css/portfolio-style.css" rel="stylesheet" type="text/css">
+    <link href="/css/page-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <div id="navbar">
-        <img src="images/logo.png" alt="Logo" id="logo">
-        <div id="nav-links">
-            <a href="portfolio.html" id="nav-links">Portfolio</a>
-            <a href="index.html" id="nav-links">Home</a>
-            <!-- <a href="page2.html">Page 2</a> -->
-            <!-- <a href="page3.html">Page 3</a> -->
+    <header>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
         </div>
-    </div>
     
-    <div id="portfolio-title">
+        <script>
+            $(function(){
+            $("#nav-placeholder").load("/utility/nav.html"); 
+            });
+        </script>
+        <!--end of Navigation bar-->
+    </header>
+
+    <div id="page-title">
         <h2>Portfolio</h2>
     </div>
 
     <div id="main-content">
         <h2>Yes</h2>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var disclaimer = document.querySelector("img[alt='www.000webhost.com']")
+            if(disclaimer) {
+                disclaimer.remove();
+            }
+        });
+    </script>
 </body>
 </html>
