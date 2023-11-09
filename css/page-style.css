@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
     margin: 0;
-    padding: 0;
+    padding: 10px 0;
     background-color: #18181b;
     display: flex;
     flex-direction: column;
@@ -22,13 +22,14 @@ body {
 
 #page-title {
     color: #F5EDED;
+    text-align: center;
     font-size: 24px;
     margin: 1% 1%;
 }
 
 #main-content {
-    text-align: left;
-    margin: -2% 1%;
+    text-align: center;
+    margin: 0% 0%;
 }
 
 img {
