@@ -1,6 +1,9 @@
 #main-content {
     text-align: center;
     margin: 0% 0%;
+    color: #F5EDED;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 #links-container {
@@ -11,7 +14,7 @@
 }
 
 .btn {
-    width: 130px;
+    width: 150px;
     font-size: 19px;
     font-weight: bold;
     color: #F5EDED; /* Light gray button text color */
@@ -20,6 +23,7 @@
 }
 
 .github {
+    text-decoration: none;
     margin: 10px 0;
     padding: 20px 20px;
     border: 2px solid #2dba4e;
@@ -28,6 +32,7 @@
 }
 
 .twitter {
+    text-decoration: none;
     margin: 10px 0;
     padding: 20px 20px;
     border: 2px solid #F5F8FA;
@@ -36,6 +41,7 @@
 }
 
 .twitch {
+    text-decoration: none;
     margin: 10px 0;
     padding: 20px 20px;
     border: 2px solid #6441a5;
@@ -44,6 +50,7 @@
 }
 
 .youtube {
+    text-decoration: none;
     margin: 10px 0;
     padding: 20px 20px;
     border: 2px solid #CD201F;

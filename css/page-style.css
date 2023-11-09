@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
     margin: 0;
-    padding: 10px 0;
+    padding: 10x 0;
     background-color: #18181b;
     display: flex;
     flex-direction: column;
