@@ -8,6 +8,8 @@
     <link rel="icon" href="../images/logo-square.png">
       
     <link href="../css/page-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/slider-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/project-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -26,11 +28,71 @@
     </header>
 
     <div id="page-title">
-        <h2>Page</h2>
+        <h2>BlueBlast</h2>
     </div>
 
     <div id="main-content">
-        <h2>This is a page, and here is the main content</h2>
+
+        <div id="slider-container">
+            <div class="slider">
+                <span id="slide-1"></span>
+                <span id="slide-2"></span>
+                <span id="slide-3"></span>
+                <div class="image-container">
+                  <img src="../images/screenshots/blueblast1.png" class="slide" width="500" height="300" />
+                  <img src="../images/screenshots/blueblast2.png" class="slide" width="500" height="300" />
+                  <img src="../images/screenshots/blueblast3.png" class="slide" width="500" height="300" />
+                </div>
+                <div class="buttons">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="info-container">
+            <span><h2>PROJECT INFO</h2></span>
+            <p>Libraries - SFML & SQLite</p>
+            <p>Project Type - Individual</p>
+            <p>Timeline - 12/1/23-2/3/23</p>
+            <a href="https://github.com/robcicle/BlueBlast" target="_blank">
+                GitHub Repository</a>
+            <p> </p>
+            <a href="https://raw.githubusercontent.com/robcicle/BlueBlast/main/blueblast/blueblast/Game.cpp" target="_blank">
+                Code Sample
+            </a>
+            <p> - Line 739-773/UpdateObjectMap Function</p>
+        </div>
+
+        <div id="lower-container">
+            <span><h2>DESCRIPTION</h2></span>
+            <p>
+                BlueBlast, a 2D game developed with the SFML library, served as a foundational project 
+                during my first year at university. This basic yet engaging game revolves around maneuvering 
+                through a grid, navigating to avoid wires while collecting discs. The core objective is to 
+                achieve the lowest time possible, with the option to save and track scores.
+            </p>
+            <p>
+                The code sample is to how I handled updating the Objects to the screen, as they were also
+                on an array just like the map but placed on top, therefore I put it all into it's own Function
+                and each time the player picks up an item it then updates it to reflect so on the screen
+            </p>
+            <p>
+                Built using C++ and SFML, BlueBlast provided an excellent introduction to both the language 
+                and the library. The project allowed me to grasp the fundamentals of C++ and understand how 
+                it operates within the context of game development. SFML's simplicity and efficiency complemented 
+                the game's straightforward mechanics, making it an ideal platform for a beginner's exploration 
+                into programming and game development.
+            </p>
+            <p>
+                BlueBlast's focus on optimizing time and recording scores not only made for an entertaining gaming 
+                experience but also underscored the importance of precision and strategy. The project laid a solid 
+                foundation for my understanding of C++ and SFML, setting the stage for more complex endeavors in 
+                the realm of game development.
+            </p>
+        </div>
+
     </div>
 
     <script>
