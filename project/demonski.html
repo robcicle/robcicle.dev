@@ -8,6 +8,8 @@
     <link rel="icon" href="../images/logo-square.png">
       
     <link href="../css/page-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/slider-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/project-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -26,11 +28,80 @@
     </header>
 
     <div id="page-title">
-        <h2>Page</h2>
+        <h2>Demonski</h2>
     </div>
 
     <div id="main-content">
-        <h2>This is a page, and here is the main content</h2>
+
+        <div id="slider-container">
+            <div class="slider">
+                <span id="slide-1"></span>
+                <span id="slide-2"></span>
+                <span id="slide-3"></span>
+                <div class="image-container">
+                  <img src="../images/screenshots/demonski1.png" class="slide" width="500" height="300" />
+                  <img src="../images/screenshots/demonski2.png" class="slide" width="500" height="300" />
+                  <img src="../images/screenshots/demonski3.png" class="slide" width="500" height="300" />
+                </div>
+                <div class="buttons">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                </div>
+            </div>
+    
+            <a class="btn" href="../games/DemonskiWebGL/index.html" target="_blank">Try it out!</a>
+            </div>
+
+        <div id="info-container">
+            <span><h2>PROJECT INFO</h2></span>
+            <p>Game Engine - Unity 2022.3.3f1</p>
+            <p>Project Type - Individual</p>
+            <p>Timeline - 22/3/20-19/5/20</p>
+            <a href="https://github.com/robcicle/Demonski" target="_blank">
+                GitHub Repository</a>
+            <p> </p>
+            <a href="https://raw.githubusercontent.com/robcicle/Demonski/main/Assets/EnemyCombat.cs" target="_blank">
+                Code Sample
+            </a>
+            <p> - Enemy Combat Class</p>
+        </div>
+
+        <div id="lower-container">
+            <span><h2>DESCRIPTION</h2></span>
+            <p>
+                Demonski, my inaugural game programming venture, is a 2D platformer created using 
+                Unity Engine. Serving as a learning project, it features a robust set of elements, 
+                including a settings menu, loading screens, and a dynamic character with jump, crouch, 
+                and attack functionalities. The game introduces adversaries with similar attack 
+                capabilities, engaging players in scripted dialogues. Set amidst floating islands 
+                with dynamic movements, Demonski challenges players to master parkour skills. This 
+                project not only marked my introduction to game programming but also highlighted 
+                the versatility of Unity Engine in bringing dynamic features to life.
+            </p>
+            <p>
+                Expanding on the code sample, this was my first attempt at programming a system in which
+                it had to decide wether to attack, and how it should act when doing so. I understand that
+                it lacks comments as does alot of the project but back then I wasn't quite aware of the 
+                importance of doing so.
+            </p>
+            <p>
+                Beyond the player's capabilities, Demonski introduces engaging adversaries with attack 
+                mechanisms akin to the player's, creating a challenging environment. The inclusion of 
+                scripted dialogue adds depth to the player's interactions with these foes, enriching the 
+                gaming experience. The game's setting unfolds across floating islands, each with dynamic 
+                movements—some ascending, others descending. Navigating through these islands demands a 
+                mastery of parkour skills, adding an exciting layer to the gameplay.
+            </p>
+            <p>
+                By choosing Unity Engine for Demonski, I continued to leverage its robust capabilities, 
+                and this project became a testament to my evolving proficiency in game development. The 
+                blend of learning and creative implementation in Demonski underlines the versatile 
+                possibilities within the Unity environment and marks a significant milestone in my 
+                journey as a game developer.
+            </p>
+        </div>
+
     </div>
 
     <script>
