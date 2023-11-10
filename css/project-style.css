@@ -7,20 +7,61 @@
     align-items: center;
 }
 
+#information-container {
+    
+    float:left;
+    margin-left: 100px;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+
+#information-container h2{
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 600;
+    font-size: 42px;
+    text-align: left;
+    margin: 0 0;
+}
+
+#information-container p{
+    max-width: 1000px;
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 400;
+    font-size: 28px;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+#information-container h2{
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 400;
+    font-size: 28px;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+#information-container span {
+    display: flex;
+    height: 50px;
+    width: 1075px;
+    background-color: #1e1e1e;
+    padding: 1rem 1rem;
+}
+
 .btn {
-    margin-top: 10px;
+    margin-top: -90px;
     position: relative;
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     border: 2px solid #861616;
     border-radius: 1ex;
+    background-color: #1e1e1e;
     font-weight: bold;
     font-size: 16px;
     width: 70px;
     
     display: inline-block;
-    background: transparent;
     color: #F5EDED; /* Light gray button text color */
     cursor: pointer;
     overflow: hidden;
