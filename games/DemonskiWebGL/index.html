@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/DemonskiWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/DemonskiWebGL.data.br",
-        frameworkUrl: buildUrl + "/DemonskiWebGL.framework.js.br",
-        codeUrl: buildUrl + "/DemonskiWebGL.wasm.br",
+        dataUrl: buildUrl + "/DemonskiWebGL.data",
+        frameworkUrl: buildUrl + "/DemonskiWebGL.framework.js",
+        codeUrl: buildUrl + "/DemonskiWebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "robcicle.dev",
         productName: "Demonski",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/DemonskiWebGL.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/DemonskiWebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
