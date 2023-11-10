@@ -8,6 +8,8 @@
     <link rel="icon" href="../images/logo-square.png">
       
     <link href="../css/page-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/slider-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/project-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -26,11 +28,78 @@
     </header>
 
     <div id="page-title">
-        <h2>Page</h2>
+        <h2>DeathSwap</h2>
     </div>
 
     <div id="main-content">
-        <h2>This is a page, and here is the main content</h2>
+
+        <div id="slider-container">
+            <div class="slider">
+                <span id="slide-1"></span>
+                <span id="slide-2"></span>
+                <span id="slide-3"></span>
+                <div class="image-container">
+                  <img src="../images/screenshots/deathswap1.png" class="slide" width="500" height="300" />
+                  <img src="../images/screenshots/deathswap2.png" class="slide" width="500" height="300" />
+                  <img src="../images/screenshots/deathswap3.png" class="slide" width="500" height="300" />
+                </div>
+                <div class="buttons">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="info-container">
+            <span><h2>PROJECT INFO</h2></span>
+            <p>Minecraft Spigot Plugin</p>
+            <p>Project Type - Individual</p>
+            <p>Timeline - 28/6/20-6/7/20</p>
+            <a href="https://github.com/robcicle/BlueBlast" target="_blank">
+                GitHub Repository</a>
+            <p> </p>
+            <a href="https://github.com/robcicle/deathswap/raw/master/DeathSwap/bin/me/robcicle/deathswap/commands/DeathSwap.class" target="_blank">
+                Code Sample
+            </a>
+            <p> - DeathSwap command Class</p>
+        </div>
+
+        <div id="lower-container">
+            <span><h2>DESCRIPTION</h2></span>
+            <p>
+                DeathSwap is an innovative Minecraft Spigot plugin that transforms the typical gaming dynamics 
+                by introducing a unique and challenging concept. In this plugin, two players engage in a timed 
+                duel, each given a standard 1-minute timer. The twist lies in the objective: players must 
+                strategically position themselves in a way that ensures they die just moments before the timer 
+                runs out.
+            </p>
+            <p>
+                For the code sample, because it's in java and specifically a .java file I cannot display the code 
+                itself but if you are able to open it and access it then it will detial you through the commands
+                for beginning the swap and it's timer and then how it takes the information from the world and 
+                processes it when the timer runs out.
+            </p>
+            <p>
+                The strategic element comes into play as players need to plan their demise with precision to 
+                trigger a swap between them. The moment one player successfully initiates their attempt to die, 
+                a swap occurs, transferring their impending demise to the other player. The challenge lies in 
+                finding the right balance between positioning, timing, and execution.
+            </p>
+            <p>
+                However, the stakes are high – if a player fails to execute their plan before the timer expires or 
+                if they die during their attempt, they lose the game. This adds a layer of pressure and urgency, 
+                turning DeathSwap into an intense and competitive experience.
+            </p>
+            <p>
+                By creating DeathSwap as a Minecraft Spigot plugin, the project explores the potential for customizing 
+                gameplay within the Minecraft environment. It offers a fresh perspective on player interaction and strategy, 
+                breaking away from the traditional Minecraft experience and providing a dynamic and engaging gaming challenge. 
+                The plugin not only showcases programming and plugin development skills but also demonstrates a creative 
+                approach to enhancing the multiplayer experience in Minecraft.
+            </p>
+        </div>
+
     </div>
 
     <script>
