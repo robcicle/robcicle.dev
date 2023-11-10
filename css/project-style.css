@@ -1,0 +1,27 @@
+#slider-container {
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    float:right;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 10px;
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #861616;
+    border-radius: 1ex;
+    font-weight: bold;
+    font-size: 16px;
+    width: 70px;
+    
+    display: inline-block;
+    background: transparent;
+    color: #F5EDED; /* Light gray button text color */
+    cursor: pointer;
+    overflow: hidden;
+  }
