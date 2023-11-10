@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
     <title>robcicle.dev</title>
-    <link rel="icon" href="/images/logo-square.png">
+    <link rel="icon" href="./images/logo-square.png">
       
-    <link href="/css/page-style.css" rel="stylesheet" type="text/css">
+    <link href="./css/page-style.css" rel="stylesheet" type="text/css">
+    <link href="./css/portfolio-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -19,7 +20,7 @@
     
         <script>
             $(function(){
-            $("#nav-placeholder").load("/utility/nav.html"); 
+            $("#nav-placeholder").load("./utility/nav.html"); 
             });
         </script>
         <!--end of Navigation bar-->
@@ -30,7 +31,46 @@
     </div>
 
     <div id="main-content">
-        <h2>Yes</h2>
+        
+        <div id="portfolio-pages">
+
+            <div class="portfolio-container">
+            <span class="hover">
+                <a href="./portfolio/mooneyscavecrusade.html">
+                    <img src="./images/project-icons/Mooneys.png"> </img>
+                    <h2>Mooney's Cave Crusade</h2>
+                </a>
+            </span>
+            </div>
+
+            <div class="portfolio-container">
+            <span class="hover">
+                <a href="./portfolio/blueblast.html">
+                    <img src="./images/project-icons/BlueBlast.png"> </img>
+                    <h2>BlueBlast</h2>
+                </a>
+            </span>
+            </div>
+
+            <div class="portfolio-container">
+            <span class="hover">
+                <a href="./portfolio/deathswap.html">
+                    <img src="./images/project-icons/DeathSwap.png"> </img>
+                    <h2>DeathSwap</h2>
+                </a>
+            </span>
+            </div>
+
+            <div class="portfolio-container">
+            <span class="hover">
+                <a href="./portfolio/demonski.html">
+                    <img src="./images/project-icons/Demonski.png"> </img>
+                    <h2>Demonski</h2>
+                </a>
+            </span>
+            </div>
+
+        </div>
     </div>
 
     <script>
