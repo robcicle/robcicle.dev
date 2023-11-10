@@ -1,51 +1,67 @@
+#page-title {
+    color: #F5EDED;
+    text-align: center;
+    font-size: 32px;
+    margin: 1% 1%;
+    margin-bottom: -50px;
+}
+
 #slider-container {
     padding: 0 0;
     display: flex;
     flex-direction: column;
-    float:right;
+    float:inline-end;
     margin-right: 100px;
     align-items: center;
 }
 
-#information-container {
-    
+#info-container {
     float:left;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 60px;
     vertical-align: middle;
 }
 
-#information-container h2{
-    color: #F5EDED; /* Light gray button text color */
-    font-weight: 600;
-    font-size: 42px;
-    text-align: left;
-    margin: 0 0;
-}
-
-#information-container p{
-    max-width: 1000px;
-    color: #F5EDED; /* Light gray button text color */
-    font-weight: 400;
-    font-size: 28px;
-    text-align: left;
-    margin: 10px 10px;
-}
-
-#information-container h2{
-    color: #F5EDED; /* Light gray button text color */
-    font-weight: 400;
-    font-size: 28px;
-    text-align: left;
-    margin: 10px 10px;
-}
-
-#information-container span {
+#info-container span {
     display: flex;
     height: 50px;
     width: 1075px;
     background-color: #1e1e1e;
     padding: 1rem 1rem;
+}
+
+#info-container p{
+    flex-direction: column;
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+#info-container a{
+    flex-direction: column;
+    float: left;
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0px 10px;
+}
+
+#info-container h2{
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 600;
+    font-size: 32px;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+#info-container h3{
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    margin: 10px 10px;
 }
 
 .btn {
@@ -66,3 +82,40 @@
     cursor: pointer;
     overflow: hidden;
   }
+
+#lower-container {
+    word-wrap: break-word;
+    margin: 0 0;
+    margin-top: 100px;
+    float: left;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+#lower-container span {
+    display: flex;
+    height: 50px;
+    width:1675px;
+    background-color: #1e1e1e;
+    padding: 1rem 1rem;
+}
+
+#lower-container p{
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+#lower-container h2{
+    color: #F5EDED; /* Light gray button text color */
+    font-weight: 600;
+    font-size: 32px;
+    text-align: left;
+    margin: 5px 10px;
+}
