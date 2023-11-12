@@ -55,3 +55,11 @@
       opacity: 1;
     }
   }
+
+#cv {
+    color: #861616;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 32px;
+    margin-top: -40px;
+}
