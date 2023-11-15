@@ -1,3 +1,14 @@
+#main-content {
+    text-align: center;
+}
+
+#page-title {
+    color: #F5EDED;
+    text-align: center;
+    font-size: 32px;
+    margin: 2% 1%;
+}
+
 #portfolio-pages {
     margin: 0px 100px;
     justify-content: space-between;
@@ -61,5 +72,4 @@
     text-decoration: underline;
     text-align: center;
     font-size: 32px;
-    margin-top: -40px;
 }
