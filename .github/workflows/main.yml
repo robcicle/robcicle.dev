@@ -16,4 +16,3 @@ jobs:
           server: 77.37.34.127
           username: u580051648
           password: ${{ secrets.ftp_password }}
-          server-dir: /
