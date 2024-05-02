@@ -1,18 +1,16 @@
-on: 
+name: CI -> Deploy to My website
+on:
   push:
     branches: [live]
-name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v3
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
+      - uses: actions/checkout@v4
+      # Here is the deployment action
+      - name: Upload from public_html via FTP
+        uses: airvzxf/ftp-deployment-action@latest
+        with:
           server: 77.37.34.127
-          username: u580051648
+          user: u580051648
           password: ${{ secrets.ftp_password }}
